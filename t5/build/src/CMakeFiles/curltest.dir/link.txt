@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/curltest.dir/main.cpp.o  -o curltest -rdynamic -lcurl 

@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/main.dir/main.cpp.o  -o main  -L/tmp/test/lib  -L/tmp/test/slib -rdynamic -Wl,-Bstatic -lhello -Wl,-Bdynamic -Wl,-rpath,/tmp/test/lib:/tmp/test/slib 

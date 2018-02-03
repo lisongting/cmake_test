@@ -1,0 +1,2 @@
+/home/lee/test/cmaketest/t3/build/CMakeFiles/hello.dir
+/home/lee/test/cmaketest/t3/build/CMakeFiles/hellostatic.dir

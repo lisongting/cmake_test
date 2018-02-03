@@ -1,0 +1,14 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
+
+PROJECT(hello)
+
+ADD_SUBDIRECTORY(src bin)
+
+INSTALL(FILES COPYRIGHT README DESTINATION share/doc/cmake/t2)
+
+INSTALL(PROGRAMS runhello.sh DESTINATION bin)
+
+INSTALL(DIRECTORY doc/ DESTINATION share/doc/cmake/t2)
+
+
+#需要使用  cmake .. -DCMAKE_INSTALL_PREFIX=/tmp/test  指定安装目录

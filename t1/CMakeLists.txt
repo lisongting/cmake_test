@@ -1,0 +1,9 @@
+PROJECT(hello)
+
+SET(SOURCE  main.cpp)
+
+MESSAGE(STATUS "this is BINARY dir " ${PROJECT_BINARY_DIR})
+
+MESSAGE(STATUS "this is SOURCE dir " ${PROJECT_SOURCE_DIR})
+
+ADD_EXECUTABLE(hello ${SOURCE})
